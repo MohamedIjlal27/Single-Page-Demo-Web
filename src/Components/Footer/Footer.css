@@ -1,0 +1,87 @@
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background: linear-gradient(135deg, #993754, #080a72);
+    padding: 50px 20px; 
+    
+}
+
+.footer-section {
+    width: 250px;
+    margin-bottom: 40px; 
+}
+
+.footer-section h1 {
+    font-size: 18px;
+    color: black; 
+    margin-bottom: 20px; 
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px; 
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: #b19b9b; 
+}
+
+.footer-section ul li a:hover {
+    color: white; 
+}
+
+.footer-section input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 20px; 
+}
+
+.footer-section input[type="email"]::placeholder {
+    color: #999; 
+}
+
+.footer-section .email-input {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.footer-section .email-input input[type="email"] {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+}
+
+.footer-section .email-input button {
+    margin-top: 8%;
+    background-color: #008cba;
+    color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    padding: 11px;
+    cursor: pointer;
+}
+
+.footer-section .terms-checkbox {
+    margin-top: 10px;
+}
+
+.footer-section .terms-checkbox label {
+    font-size: 14px;
+    color: #666;
+}
+
+.footer-section .terms-checkbox input[type="checkbox"] {
+    margin-right: 5px;
+}
+

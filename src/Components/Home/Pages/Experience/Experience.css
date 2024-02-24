@@ -1,0 +1,92 @@
+#experience {
+    padding: 50px;
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.heading h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.heading h5 {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.image-container {    
+    cursor: pointer;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.grid-item {
+    width: calc(25% - 20px);
+    margin: 10px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.grid-item:hover {
+    transform: translateY(-5px);
+}
+
+.image-with-heading {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.image-with-heading img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.image-with-heading:hover img {
+    transform: scale(1.1);
+}
+
+.image-heading {
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: black;
+    font-weight: 900;
+    background-color: rgba(119, 115, 115, 0.7);
+    padding: 10px;
+    box-sizing: border-box;
+    transition: opacity 0.3s ease;
+    opacity: 0;
+}
+
+.image-with-heading:hover .image-heading {
+    opacity: 1;
+}
+
+.learn-more-btn {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.learn-more-btn:hover {
+    background-color: #0056b3;
+}

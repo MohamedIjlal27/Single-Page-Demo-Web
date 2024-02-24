@@ -1,0 +1,24 @@
+{
+    "slides":[
+        {
+            "src":"https://cf.bstatic.com/xdata/images/hotel/max1300x500/139041924.jpg?k=97416f1bfc8c7fd906e57abe764e4e4d56a136214002e0a4825a3e22da914555&o=&hp=1",
+            "alt":"Image 1"
+        },
+        {
+            "src":"https://cf.bstatic.com/xdata/images/hotel/max1300x500/295690737.jpg?k=acd87b711e08fdccc5169cd5803e90deab92665ab9f1987ccc05fa1b31233ae9&o=&hp=1",
+            "alt":"Image 2"
+        },
+        {
+            "src":"https://sitecore-cd-imgr.shangri-la.com/MediaFiles/4/9/2/%7B49253009-15ED-4088-9418-0B771FF20C4A%7D203009_SLM_hmpgbg_Lobby%20Lounge.jpg?width=1300&height=500&mode=crop&quality=100&scale=both",
+            "alt":"Image 3"
+        },
+        {
+            "src":"https://media.timeout.com/images/106012483/image.jpg",
+            "alt":"Image 4"
+        },
+        {
+            "src":"https://assets.architecturaldigest.in/photos/600822ee5d28c2de0a6eb4d2/16:9/w_2560%2Cc_limit/Shangri-La-Colombo-Sri-Lanka-1366x768.jpg",
+            "alt":"Image 4"
+        }
+    ]
+}
